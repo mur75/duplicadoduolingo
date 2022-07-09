@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Open+Sans:wght@700&display=swap');
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(35, 83, 144);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .navbar span{
+        display: flex;
+        justify-content: right;
+    }
+
+    .navbar ul{
+        list-style-type: none
+    }
+
+.logo-eslogan img{
+    width: 250px;
+}
+
+.logo-eslogan{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    /*para dejar un background con textura, crear la imagen en paint, cambiar la direccion del / y con .. se le indica que salga del css y lleve la imagen al background*/
+    background-image: url(../img/textura.jpg);
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-family: din-round,sans-serif;
+    }
+
+.button1{
+        border-radius: 5px;
+        background-color: rgb(97, 224, 2);
+        border-style: none;
+        width: 320px;
+        height: 46px;
+        color: #fff;
+        font-weight: 600;
+}
+
+.button2{
+    border-radius: 5px;
+        border-style: solid;
+        border-color: rgb(4, 44, 96);
+        width: 320px;
+        height: 46px;
+        background-color: transparent;
+        margin-top: 10px;
+        color: #fff;
+        font-weight: 600;
+}
+
+.logo-eslogan div{
+    display: flex;
+    align-items: center;
+}
+
+.ingreso {
+    letter-spacing: 2px
+    
+}
+
+
+
+.ingreso{
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-paises{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(35, 83, 144);
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.lista-paises img{
+    width: 50px;
+}
+
+.lista-paises p{
+    font-size: small;
+
+}
+.lista-paises li{
+    display: flex;
+    flex-direction: row;
+}
+.navbar h2{
+    font-size: 36px;
+    color: #fff;
+}
+.navbar span{
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    /*buscar din-round,sans-serif; en oogle fonts*/
+    font-family:sans-serif
+    }
+
+
+
+    #menu ul ul{
+        /*para esconder los enlaces del submenu*/
+        display: none;
+        transition: all 1s;
+
+    }
+    /* items del menu desplegable al pasar el ratón */
+    #menu ul li:hover > ul{
+        display: block;
+            background-color: #fff;
+            border-style: solid;
+            border-color: rgb(150, 152, 155);
+            border-radius: 5px;
+            /*para quitar laas viñetas en las listas*/
+            list-style-type: none;
+            position: absolute;
+            z-index: 99;
+    }
+
+    #menu {
+        padding: 15px;
+        width: 470px;
+    }
+
+    #menu ul{
+        
+    }
+        
