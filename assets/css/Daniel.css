@@ -1,0 +1,132 @@
+
+
+
+h1{
+    padding: 2%;
+    padding-right: 7%;
+}
+
+.tamano-imagen1{
+    width: 180px;
+    padding-inline-end: 4%;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 46px;
+    margin-top: 14px;
+    font-family: sans-serif;
+}
+
+
+.container2{
+    display: flex;
+    place-content: center;
+    place-content: space-evenly;
+    padding: 6%;
+    margin: -7%;
+    place-items: center;
+    font-family: sans-serif;
+}
+
+
+.tamano-imagen2{
+    width: 185px;
+    height: 201px;
+    margin-inline: 2%;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    font-family: sans-serif;
+    padding: 5%;
+    margin: -3%;
+    font-family: sans-serif;
+}  
+
+
+.tamano-imagen3{
+    height: 220px;
+    min-width: 182px;
+    padding-inline-start: 6%;
+    margin-inline: -2%;
+    font-family: sans-serif;
+}
+
+.container4{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    font-family: sans-serif;
+
+}
+
+
+.tamano-imagen4{
+    height: 162px;
+    min-width: 245px;
+    margin-inline: 2%;
+    padding-inline: 2%;
+}
+
+.container5{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 3%;
+    font-family: sans-serif;
+}
+
+.tamano-imagen5{
+    height: 162px;
+    min-width: 245px;
+    padding-inline-start: 17%;
+    margin-inline: -8%;
+}
+
+.container6{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    font-family: sans-serif;
+}
+
+.tamano-imagen6{
+    width: 185px;
+    height: 164px;
+    margin-inline: 3%;
+}
+
+.container7{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 3%;
+    font-family: sans-serif;
+}
+
+span{
+    text-decoration-line:underline
+
+}
+
+.tamano-imagen10{
+    padding-block-end: 8%;
+    
+    padding-inline-end: 10%;
+}
+.texto2{
+    text-align: center;
+}
+
+h4{
+    color: #53a0f9;
+}
+
+
+
